@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    width: 100%;
+    height:50px;
+    background-color: black ;
+    position: fixed;
+    /* top: 0px ; */
+    
+    
+}
+#navbar nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+   
+   
+}
+#navbar nav ul{
+    display:flex;
+    /* padding-left: 300px; */
+    gap: 80px;
+    
+    list-style:none;
+   
+}
+#navbar nav h1{
+    color: white;
+    /* padding-top: 20px; */
+}
+#navbar nav ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+#navbar nav ul li a:hover{
+    color: rgba(111, 111, 207, 0.733);
+}
+
+#home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./Audi-A6.webp);
+    background-repeat: no-repeat ;
+    background-size: 100%;
+    z-index:-1;
+   
+}
+.back{
+    height:100%;
+    width:100%;
+    background-color: rgba(0, 0, 255, 0.187);
+    padding-top: 120px;
+}
+.one{
+    font-size:40px;
+    color: white;
+    font-weight: bold;
+}
+.two{
+    color: white;
+    font-style: italic;
+}
+.three{
+    background-color: rgb(111, 111, 249);
+    height: 50px;
+    width: 170px;
+    color: white;
+    font-size: 15px;
+}
+.three:hover{
+    background-color: blue;
+}
+
+
+/* from here the styling part will be of next page */
+
+#first{
+    height: 250px;
+    width: 70%;
+    border: 1px solid black;
+    margin-left: 170px;
+    display: flex;
+    position: absolute;
+    top: 500px;
+    background-color: white;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    font-size: large;
+    background-color: rgb(242, 204, 157);
+    font-weight: bold;
+}
+.btn{
+height: 50px;
+width: 150px;
+margin-top: 70px;
+font-size: large;
+}
+.btn:hover{
+    background-color: rgb(209, 154, 83);
+}
+
+
+#boxes{
+    margin-top: 300px;
+    margin-left: 100px;
+    display: flex;
+    height: 300px;
+    width: 1000px;
+}
+
+.box1{
+    border: 1px solid rgb(214, 207, 207);
+    transition: background-color 1s ease ;
+}
+
+
+.box2{
+    border: 1px solid rgb(214, 207, 207);
+    margin-left: 50px;
+    transition: background-color 1s ease ;
+}
+
+
+
+.box3{
+    border: 1px solid rgb(214, 207, 207);
+    margin-left: 50px;
+    transition: background-color 1s ease ;
+}
+
+.box1:hover{
+    background-color: rgb(88, 88, 250)
+    
+
+    
+
+}
+
+.box2:hover{
+    background-color: rgb(88, 88, 250)
+
+}
+
+.box3:hover{
+    background-color: rgb(88, 88, 250)
+
+}
+#icon1{
+   font-size: 50px;
+    padding-left: 40% ;
+    padding-top: 20%;
+}
+#icon2{
+    font-size: 50px;
+    padding-left: 40% ;
+    padding-top: 20%;
+}
+#icon3{
+    font-size: 50px;
+    padding-left: 40% ;
+    padding-top: 20%;
+}
+
+
+#info{
+    height: 500px;
+    width: 100%;
+    border: 1px solid rgb(237, 237, 237);
+    margin-top: 10%;
+    background-color: rgb(252, 249, 246);
+    
+}
+#three{
+    margin-top: 5%;
+    margin-left: 40%;
+   
+}
+#three p{
+    margin-left: 50px;
+}
+.head{
+    font-size:50px;
+    
+}
+#image{
+   padding-top: 80px;
+    display: flex;
+}
+#carinfo{
+    padding-left: 40px;
+}
+.btn2{
+    height: 40px;
+    width: 100px;
+}
+.btn2:hover{
+    background-color: rgba(205, 200, 194, 0.852);
+    font-weight: bolder;
+}
+#collection{
+    height: 700px;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 10%;
+    background-color:rgb(244, 238, 219)
+    
+    
+}
+
+.check{
+   padding-top: 10%;
+    padding-left: 40%;
+}
+.check2{
+    padding-left: 36%;
+    font-size: 50px; 
+}
+#start{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 100px;
+}
+#black{
+   
+    height: 500px;
+    width: 215px;
+    /* border: 1px solid black; */
+}
+
+#red{
+    height: 250px;
+    width: 215px;
+    /* border: 1px solid black; */
+}
+
+#blue{
+    height: 250px;
+    width: 215px;
+    /* border: 1px solid black; */
+}
+
+#orange{
+    height: 250px;
+    width: 215px;
+    /* border: 1px solid black; */
+}
+
+.carphoto{
+    padding-top: 10px;
+height: 80px;
+/* width: 100%; */
+padding-left: 20px;
+/* border: 1px solid black; */
+}
+
+.car1img{
+    width: 100%;
+    height: 150px;
+    border: 1px solid rgb(198, 197, 197);
+}
+.car1img:hover{
+    /* font-size: 20px; */
+}
+
+.car1text{
+    color: rgb(128, 126, 126);
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgb(198, 197, 197);
+}
+.car2img{
+    width: 100%;
+    height: 150px;
+    border: 1px solid rgb(198, 197, 197);
+}
+.car2text{
+    color: rgb(128, 126, 126);
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgb(198, 197, 197);
+}
+.car3img{
+    width: 100%;
+    height: 150px;
+    border: 1px solid rgb(198, 197, 197);
+}
+.car3text{
+    color: rgb(128, 126, 126);
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgb(198, 197, 197);
+}
+.car4img{
+    width: 100%;
+    height: 150px;
+    border: 1px solid rgb(198, 197, 197);
+}
+.car4text{
+    color: rgb(128, 126, 126);
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgb(198, 197, 197);   
+}
+.car4detail{
+    color: rgb(128, 126, 126);
+   padding-top: 20px;
+}
+.car3detail{
+    color: rgb(128, 126, 126);
+    padding-top: 20px;
+}
+.car2detail{
+    color: rgb(128, 126, 126);
+    padding-top: 20px;
+}
+.car1detail{
+    color: rgb(128, 126, 126);
+    padding-top: 20px;
+}
+.carfont{
+    font-size: 15px;
+    padding-top: 10px;
+}
+.carfont1{
+    font-size: 12px;
+}
+
+#clientsection{
+    background-color: rgba(242, 241, 239, 0.852);
+    height: 700px;
+    width: 100%;
+    border: 1px solid rgb(250, 248, 248);
+    margin-top: 60px;
+}
+#client{
+   
+
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+.client1{
+    height: 350px;
+    width: 300px;
+    border: 1px solid black;
+    margin-top: 10%;
+    text-align: center;
+    padding-top: 20px;
+    transition: background-color 1s ease ;
+ 
+}
+.clienthead{
+    font-size: 35px;
+    margin-top: 10%;
+    padding-left: 35%;
+}
+.client1:hover{
+    background-color:rgb(190, 185, 185);
+}
+.para2{
+    padding-top:15px;
+}
+.head2{
+    padding-top: 10px;
+    font-size: 15px;
+}
+#six{
+    height: 200px;
+}
+#brands{
+    display: flex;
+    height: 60px;
+  margin-top: 120px;
+    justify-content:space-evenly;
+    
+}
+#seven{
+    height: 600px;
+    background-color: rgb(37, 37, 62);
+}
+#lastsection{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+#lastthree{
+    padding-top: 60px;
+}
